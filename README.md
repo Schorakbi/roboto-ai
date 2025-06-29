@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/968fe932-ef8d-4e72-ad81-ee3f85d6bff0
 
 
 
-(https://imgur.com/a/O9el0RE)
+https://imgur.com/a/O9el0RE
 
 ---
 
@@ -120,3 +120,4 @@ curl -X 'POST' \
   -d '{
     "command": "Please get 3 boxes of part #A-123 from shelf B4 and move them to assembly station 2."
   }'
+```
