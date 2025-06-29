@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/968fe932-ef8d-4e72-ad81-ee3f85d6bff0
 
 
 
-https://imgur.com/a/O9el0RE
+![Image](https://github.com/user-attachments/assets/7893ecdc-5545-4fb5-a566-c3060544c879)
 
 ---
 
