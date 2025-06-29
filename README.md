@@ -11,7 +11,7 @@ An end-to-end MLOps project demonstrating the implementation and automated opera
 
 ## 🚀 Live Demo & Video Walkthrough
 
-- **[Watch the 2-Minute Video Walkthrough](https://github.com/user-attachments/assets/968fe932-ef8d-4e72-ad81-ee3f85d6bff0)**
+https://github.com/user-attachments/assets/968fe932-ef8d-4e72-ad81-ee3f85d6bff0
 
 
 
