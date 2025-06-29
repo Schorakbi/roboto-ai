@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from openai import AzureOpenAI
 from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 
 # Load environment variables from .env file
 load_dotenv()
@@ -25,6 +26,15 @@ app = FastAPI(
     version="0.1.0"
 )
 
+# Enable CORS for local development
+# This allows the frontend to communicate with the backend during development.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Initialize Azure OpenAI Client
 client = AzureOpenAI(
     api_version=api_version,
